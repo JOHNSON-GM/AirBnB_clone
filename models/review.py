@@ -1,13 +1,12 @@
 #!/usr/bin/python3
-"""This file contain the class Review"""
+"""This module creates a Review class"""
 
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """
-    Review class that inherits from BaseModel class
-    """
+    """Class for managing review objects"""
+
     place_id = ""
     user_id = ""
     text = ""
